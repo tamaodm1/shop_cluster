@@ -41,7 +41,7 @@ Với mỗi khách hàng:
   - RFM được scale trước khi phân cụm
 Kích thước vector đặc trưng cuối cùng:
 3920 khách hàng × 203 đặc trưng
-    ## 5. Phân cụm khách hàng
+## 5. Phân cụm khách hàng
 - Thuật toán: **K-Means**
 - Chọn số cụm K bằng **Silhouette score**
 - Khảo sát K từ 2 đến 10
@@ -70,6 +70,8 @@ Kết quả phân cụm được lưu tại: data/processed/customer_clusters_fr
   - Cross-sell & upsell theo luật mạnh
   - Chăm sóc VIP
   - Ưu đãi cá nhân hóa
+ 
+
 ## 8. Cấu trúc thư mục
 shop_cluster/
 ├── data/
