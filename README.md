@@ -73,15 +73,18 @@ Kết quả phân cụm được lưu tại: data/processed/customer_clusters_fr
  
 
 ## 8. Cấu trúc thư mục
+
+```text
 shop_cluster/
 ├── data/
-│ └── processed/
-│ ├── cleaned_uk_data.csv
-│ ├── rules_apriori_filtered.csv
-│ └── customer_clusters_from_rules.csv
+│   └── processed/
+│       ├── cleaned_uk_data.csv
+│       ├── rules_apriori_filtered.csv
+│       └── customer_clusters_from_rules.csv
 ├── notebooks/
-│ └── clustering_from_rules.ipynb
+│   └── clustering_from_rules.ipynb
 ├── src/
-│ └── cluster_library.py
+│   └── cluster_library.py
 ├── requirements.txt
 └── README.md
+
